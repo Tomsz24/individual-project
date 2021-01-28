@@ -2,12 +2,11 @@
 
 function toggleMenu(visible) {
   document.querySelector('.sidebar-menu').classList.toggle('show', visible);
-  document.querySelector('#top_nav').classList.toggle('show', visible)
-  console.log('test');
+  document.querySelector('#top_nav').classList.toggle('show', visible);
 }
 document.querySelector('.hamburger').addEventListener('click', function (e) {
   e.preventDefault();
-  toggleMenu()
+  toggleMenu();
 });
 
 
