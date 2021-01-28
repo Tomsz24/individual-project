@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: row;
+  margin: 0;
+  background-color: $background-color;
+}

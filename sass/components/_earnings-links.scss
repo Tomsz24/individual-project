@@ -1,0 +1,68 @@
+.earnings-chart {
+  margin-top: 50px;
+}
+
+.chart-legend {
+  padding: 10px 15px;
+  background: $background-color;
+  border-radius: 3px;
+  margin: 0 20px;
+  display: inline-table;
+  transition: $transition;
+
+  &:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background: none;
+  }
+
+  &:active {
+    background: none;
+    box-shadow: none;
+  }
+
+  a {
+    padding: 0 15px;
+    color: $side-bar-font-color;
+
+    &::before {
+      display: inline-block;
+      content: '';
+      background: $signups-dot;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-bottom: -2px;
+    }
+
+    &:hover {
+      color: $links-color;
+    }
+
+    &:active {
+      color: $links-color;
+    }
+  }
+}
+
+.chart-legend:nth-of-type(2) a:before {
+  background: $buttons-color;
+}
+
+.chart-legend:nth-of-type(3) a:before {
+  background: $earned-dot;
+}
+
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.scroll-wrapper {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+}

@@ -1,0 +1,172 @@
+/*Media Query*/
+@media (max-width: 420px) {
+  .top-nav-list .link-wrapper {
+    padding: 0 10px;
+  }
+
+  .top-nav-list .nav-item:nth-child(1) .icon-image:nth-child(3){
+    display: none;
+  }
+
+  .top-nav-list .nav-item .total-amount {
+    font-size: 14px;
+  }
+
+  .calendar p{
+    margin-right: 5px;
+  }
+  .column-wrapper{
+    flex-direction: column;
+  }
+  .statistics-summary-table{
+    width: auto;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  body {
+    display: block;
+  }
+
+  .left-side-section {
+    display: flex;
+    height: 70px;
+  }
+  .chart-legend {
+    padding: 5px;
+    margin: 3px 10px;
+  }
+  .content {
+    height: 85vh;
+  }
+  .links-list{
+    width: 100%;
+  }
+  .link-item{
+    display: block;
+    height: 75px;
+    text-align: center;
+    .img-wrapper .links-icon{
+      opacity: 1;
+    }
+  }
+
+  .wrapper{
+    padding: 20px 5px;
+  }
+
+
+  .calendar-table p {
+    margin-right: 10px;
+  }
+
+  .button {
+    padding: 5px;
+  }
+
+  #top_nav {
+    display: none;
+  }
+
+  #top_nav.show {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    background:  $sidebar-nav;
+    border-top: 1px solid $side-bar-font-color;
+    border-bottom: 1px solid $side-bar-font-color;
+    height: 50px;
+  }
+
+  .top-nav-list .nav-item {
+    border-style: none;
+  }
+
+  .chart-wrapper {
+    width: 100%;
+  }
+
+  #sidebar {
+    width: 100%;
+    z-index: 5;
+
+    .title-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .title {
+      display: flex;
+    }
+
+    .icon-wrapper {
+      padding: 15px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+
+  .sidebar-manager {
+    margin: 0;
+  }
+
+  .sidebar-menu {
+    display: none;
+    overflow-y: scroll;
+    height: 80vh;
+  }
+
+  .sidebar-menu.show {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sidebar-menu {
+    overflow-y: auto;
+    height: 80vh;
+  }
+  .links-list{
+    width: 100%;
+  }
+  .chart-legend {
+    padding: 5px;
+    margin: 0 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sidebar-menu {
+    overflow-y: auto;
+    height: 80vh;
+  }
+
+
+}
+
+
+@media (min-width: 992px) {
+  .chart-wrapper {
+    width: 80%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .chart-wrapper {
+    width: 60%;
+  }
+}
+
+@media (orientation: landscape) {
+  .sidebar {
+    overflow-y: scroll;
+  }
+}

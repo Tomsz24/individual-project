@@ -1,0 +1,42 @@
+.calendar-wrapper {
+  display: flex;
+  height: 35px;
+}
+
+.calendar {
+  border: 1px solid #EEEEEB;
+  padding: 5px 10px;
+  border-radius: 5%;
+  font-size: 15px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  align-items: center;
+
+  p {
+    margin-right: 40px;
+    display: inline-flex;
+    align-items: center;
+    font-family: $paragraph-font;
+    font-size: 12px;
+  }
+
+  .date::before {
+    display: block;
+    content: '';
+    background: $background-color;
+    width: 1px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+
+.calendar-image {
+  display: flex;
+  align-items: center;
+
+  .icon-image {
+    width: 12px;
+    height: 12px;
+  }
+}

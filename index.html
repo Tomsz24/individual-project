@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Individual Project</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="left-side-section">
+    <div id="sidebar" class="sidenav">
+      <div class="logo-wrapper">
+        <div class="logo">
+          <h1>Just do it</h1>
+        </div>
+        <div class="icon-wrapper">
+          <a href="#"><i class="fas fa-bars icon hamburger"></i></a>
+        </div>
+      </div>
+      <div class="sidebar-menu">
+        <ul class="menu-list titles">
+          <li class="menu-item">
+            <a href="#content_general" class="menu-link active">
+              <img src="images/icons/general.svg" class="icon-image" alt="picture">General</a>
+          </li>
+          <li class="menu-item">
+            <a href="#content_details" class="menu-link">
+              <img src="images/icons/details.svg" class="icon-image" alt="picture">Details</a>
+          </li>
+          <li class="menu-item">
+            <a href="#content_links" class="menu-link">
+              <img src="images/icons/links.svg" class="icon-image" alt="picture">Links</a>
+          </li>
+          <li class="menu-item">
+            <a href="#content_banners" class="menu-link">
+              <img src="images/icons/banners.svg" class="icon-image" alt="picture">Banners</a>
+          </li>
+          <li class="menu-item">
+            <a href="#content_personal_data" class="menu-link">
+              <img src="images/icons/personaldata.svg" class="icon-image" alt="picture">Personal data</a>
+          </li>
+          <li class="menu-item">
+            <a href="#content_payout" class="menu-link">
+              <img src="images/icons/payout.svg" class="icon-image" alt="picture">Payout</a>
+          </li>
+          <li class="menu-item">
+            <a href="#content_postback" class="menu-link">
+              <img src="images/icons/postback.svg" class="icon-image" alt="picture">Postback</a>
+          </li>
+        </ul>
+        <div class="sidebar-manager">
+          <div class="manager-title">
+            <h2>Your Manager</h2>
+          </div>
+          <div class="manager-wrapper">
+            <img src="images/icons/avatar.png" class="manager-image" alt="manager-picture">
+            <a href="#" class="manager-name">Mikhael E</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="middle-side-section">
+    <header id="top_nav">
+      <div class="top-nav-wrapper">
+        <ul class="top-nav-list">
+          <li class="nav-item">
+            <a href="#" class="link-wrapper">
+              <img src="images/icons/wallet.svg" class="icon-image" alt="picture">
+              <p class="total-amount">$1,500.00</p>
+              <img src="images/icons/arrow-down-small.svg" class="icon-image" alt="picture">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="link-wrapper">
+              <img src="images/icons/notification.svg" class="icon-image" alt="picture">
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="link-wrapper">
+              <img src="images/icons/profile.svg" class="icon-image" alt="picture">
+              <p class="user-name">Leonardo DiCaprio</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="link-wrapper">
+              <img src="images/icons/quit.svg" class="icon-image" alt="picture">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="content">
+      <section class="content-wrapper active" id="content_general">
+        <article class="container">
+          <div class="container-title">
+            <h4>General Statistic</h4>
+          </div>
+          <div class="horizontal-line"></div>
+          <div class="wrapper">
+            <div class="calendar-wrapper">
+              <div class="calendar">
+                <p> 27.01.2020</p>
+                <p class="date"> 27.01.2020 </p>
+                <div class="calendar-image">
+                  <a href="#"><img src="images/icons/calendar.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </div>
+              <button class="button" type="submit"><img src="images/icons/refresh.svg" class="icon-image"
+                  alt="picture"></button>
+            </div>
+          </div>
+          <div class="horizontal-line"></div>
+          <div class="wrapper column-wrapper">
+            <table class="statistics-summary-table">
+              <tr>
+                <th>Visit Signups</th>
+                <td>125</td>
+              </tr>
+              <tr>
+                <th>FTD</th>
+                <td>445</td>
+              </tr>
+            </table>
+            <table class="statistics-summary-table">
+              <tr>
+                <th>Net Deposit</th>
+                <td>541</td>
+              </tr>
+              <tr>
+                <th>Turn Over</th>
+                <td>435</td>
+              </tr>
+            </table>
+          </div>
+          <div class="earnings-chart">
+            <div class="subtitle-wrapper">
+              <h2>Earnings chart</h2>
+            </div>
+            <div class="wrapper column-wrapper">
+              <div class="chart-legend">
+                <a href="#">Signups</a>
+              </div>
+              <div class="chart-legend">
+                <a href="#">FTD</a>
+              </div>
+              <div class="chart-legend">
+                <a href="#">Earned</a>
+              </div>
+            </div>
+            <div class="scroll-wrapper">
+              <div class="chart-wrapper">
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="container">
+          <div class="container-title">
+            <h4>Links</h4>
+          </div>
+          <div class="horizontal-line"></div>
+          <div class="wrapper">
+            <button class="button btn-links" type="submit">+ add new</button>
+          </div>
+          <div class="wrapper">
+            <ul class="links-list">
+              <li class="link-item">
+                <h2 class="name-position">Home Page</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Currntly offer</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Blurpix</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Your Site</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Google</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Facebook</h2>
+                <a href="#" class="link-address link-position">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Dashboard</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Blurax</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Twitter</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+              <li class="link-item">
+                <h2 class="name-position">Twitter</h2>
+                <a href="#" class="link-address">http://www.twitter.com</a>
+                <div class="img-wrapper">
+                  <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                  <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="wrapper">
+            <button class="button btn-links" type="submit">+ add new</button>
+          </div>
+        </article>
+      </section>
+      <section class="content-wrapper" id="content_details">
+        <article class="container">
+          <p>In progress</p>
+        </article>
+      </section>
+      <section class="content-wrapper" id="content_links">
+        <article class="container">
+          <div class="container-title">
+            <h4>Links</h4>
+          </div>
+          <div class="horizontal-line"></div>
+          <div class="wrapper">
+            <button class="button btn-links" type="submit">+ add new</button>
+          </div>
+          <ul class="links-list">
+            <li class="link-item">
+              <h2 class="name-position">Home Page</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Currntly offer</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Blurpix</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Your Site</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Google</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Facebook</h2>
+              <a href="#" class="link-address link-position">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Dashboard</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Blurax</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Twitter</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+            <li class="link-item">
+              <h2 class="name-position">Twitter</h2>
+              <a href="#" class="link-address">http://www.twitter.com</a>
+              <div class="img-wrapper">
+                <a href="#" class="links-icon links-img"><img src="images/icons/links.svg" class="icon-image" alt="picture"></a>
+                <a href="#" class="links-icon"><img src="images/icons/trash.svg" class="icon-image" alt="picture"></a>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="content-wrapper" id="content_banners">
+        <article class="container">
+          <p>In progress</p>
+        </article>
+      </section>
+      <section class="content-wrapper" id="content_personal_data">
+        <article class="container">
+          <p>In progress</p>
+        </article>
+      </section>
+      <section class="content-wrapper" id="content_payout">
+        <article class="container">
+          <p>In progress</p>
+        </article>
+      </section>
+      <section class="content-wrapper" id="content_postback">
+        <article class="container">
+          <p>In progress</p>
+        </article>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

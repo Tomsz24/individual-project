@@ -1,0 +1,39 @@
+.links-list {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.link-item {
+  border-bottom: 1px solid $background-color;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  align-items: center;
+  &:hover {
+    background-color: $background-color;
+  }
+  .name-position{
+    font-size: 15px;
+  }
+  .link-address{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .img-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+    .links-icon {
+      margin-left: 15px;
+      opacity: 0;
+    }
+  }
+}
+.link-item:hover .img-wrapper .links-icon {
+  opacity: 1;
+}
+.links-img {
+  filter: grayscale(150%) brightness(150%) sepia(60%) hue-rotate(5deg) saturate(500%) contrast(0.9);
+}
