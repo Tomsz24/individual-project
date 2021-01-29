@@ -826,6 +826,7 @@ th {
   border-collapse: collapse;
   width: 35%;
   margin: 0 25px;
+  font-family: "Open Sans", Helvetica, Arial;
 }
 
 .statistics-summary-table th {
