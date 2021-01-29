@@ -13,7 +13,9 @@
 .content {
   overflow-y: auto;
   position: relative;
-  overflow-y: scroll;
+  // overflow-y: scroll;
+  // min-height: 100vh;
+  // margin-bottom: 25px;
 }
 .content-wrapper{
   display: none;
@@ -32,5 +34,4 @@ article {
   padding: 20px 10px;
   box-shadow: -1px 1px 4px 0 grey;
   background-color: white;
-  min-height: 80vh;
 }

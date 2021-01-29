@@ -360,7 +360,6 @@ template {
 .content {
   overflow-y: auto;
   position: relative;
-  overflow-y: scroll;
 }
 
 .content-wrapper {
@@ -382,7 +381,6 @@ article {
   padding: 20px 10px;
   box-shadow: -1px 1px 4px 0 grey;
   background-color: white;
-  min-height: 80vh;
 }
 
 * {
@@ -397,6 +395,7 @@ body {
       flex-direction: row;
   margin: 0;
   background-color: #EEEEEB;
+  min-height: 500vh;
 }
 
 h1 {
@@ -999,7 +998,7 @@ th {
     margin: 3px 10px;
   }
   .content {
-    height: 85vh;
+    height: 92vh;
   }
   .links-list {
     width: 100%;
